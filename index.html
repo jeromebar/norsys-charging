@@ -3,59 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 
     <title>BORNE NORSYS</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        a {
-            display: block;
-            padding: 12px;
-            margin: 10px 0;
-            background-color: #eee;
-            color: #333;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-
-        a:hover {
-            background-color: #ddd;
-        }
-    </style>
 </head>
 
 <body>
-
-    <div class="container">
+    <main class="container">
         <h1>BORNES NORSYS</h1>
+        <p class="subtitle">Choisissez votre place de recharge</p>
 
-        <a href="https://charge.re/444">BORNE 1</a>
-        <a href="https://charge.re/444">BORNE 2</a>
-        <a href="https://charge.re/444">BORNE 3</a>
-        <a href="https://charge.re/444">BORNE 4</a>
-        <a href="https://charge.re/444">BORNE 5</a>
-        <a href="https://charge.re/444">BORNE 6</a>
-    </div>
+        <section class="parking-lot" aria-label="Parking des bornes">
+            <a class="spot" data-spot="6" href="https://charge.re/444">
+                <span class="spot-borne">Parking 6</span>
+            </a>
+            <div class="charger" aria-hidden="true"></div>
+            <a class="spot" data-spot="5" href="https://charge.re/444">
+                <span class="spot-borne">Parking 5</span>
+            </a>
+            <div class="charger" aria-hidden="true"></div>
+            <a class="spot" data-spot="4" href="https://charge.re/444">
+                <span class="spot-borne">Parking 4</span>
+            </a>
+            <div class="charger" aria-hidden="true"></div>
+            <a class="spot" data-spot="3" href="https://charge.re/444">
+                <span class="spot-borne">Parking 3</span>
+            </a>
+            <div class="charger" aria-hidden="true"></div>
+            <a class="spot" data-spot="2" href="https://charge.re/444">
+                <span class="spot-borne">Parking 2</span>
+            </a>
+            <div class="charger" aria-hidden="true"></div>
+            <a class="spot" data-spot="1" href="https://charge.re/444">
+                <span class="spot-borne">Parking 1</span>
+            </a>
+        </section>
+    </main>
 
 </body>
 </html>
