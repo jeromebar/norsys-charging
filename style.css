@@ -305,12 +305,12 @@ h1 {
     .parking-lot {
         gap: 7px;
         padding: 8px;
-        padding-left: calc(8px + 44px);
+        padding-left: calc(8px + 114px);
         padding-right: calc(8px + 50px);
     }
 
     .parking-lot::before {
-        width: 54px;
+        width: 114px;
     }
 
     .parking-lot::after {
